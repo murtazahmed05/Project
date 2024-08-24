@@ -1,0 +1,44 @@
+.display {
+	margin-top: 70px;
+	height: 100vh;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left img {
+	height: 500px;
+	width: 80%;
+	margin-top: 50px;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.right h1 {
+	font-size: 22px;
+	display: inline !important;
+	width: 50%;
+	text-align: left;
+	padding: 2px 0;
+}
+
+.right {
+	padding: 20px;
+}
+
+.mini {
+	display: flex;
+
+	margin-left: 50px;
+}
+
+.mini img {
+	height: 120px;
+	width: 120px;
+}
+
+.left {
+	height: auto !important;
+}

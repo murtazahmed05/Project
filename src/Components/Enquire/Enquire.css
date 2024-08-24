@@ -1,0 +1,22 @@
+.enquire img {
+	height: 120px;
+	width: 120px;
+	object-position: center;
+	margin-top: 0;
+	cursor: auto;
+}
+
+.e-display {
+	height: auto;
+	width: 70%;
+	margin-top: 100px;
+	padding: 10px 120px;
+}
+
+.left {
+	height: 120px;
+}
+
+.right h1 {
+	text-align: center;
+}

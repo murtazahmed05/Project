@@ -1,0 +1,6 @@
+.catagories {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}

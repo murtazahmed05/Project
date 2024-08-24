@@ -1,0 +1,67 @@
+#Hero {
+	height: 100vh;
+	width: 100%;
+	background-image: url(./Images/Hero.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+span {
+	color: #333;
+	font-size: 18px;
+	padding: 0 20px;
+}
+
+.title {
+	font-size: 60px;
+	color: #fff;
+	padding: 0 400px;
+	text-align: center;
+	font-weight: 700;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+
+.btn {
+	padding: 17px 55px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/* Media Quries */
+
+@media only screen and (max-width: 576px) {
+	.title {
+		color: red;
+		font-size: 30px;
+		padding: 0 20px;
+	}
+	.btn {
+		padding: 15px 30px;
+		font-size: 10px;
+		font-weight: bold;
+		margin-top: 8px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.title {
+		color: blue;
+		font-size: 45px;
+		padding: 0 20px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.title {
+		color: green;
+		font-size: 60px;
+		padding: 0 50px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1900px) {
+	.title {
+		color: gold;
+	}
+}

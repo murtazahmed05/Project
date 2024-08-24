@@ -1,0 +1,23 @@
+.Product {
+	margin: 50px;
+}
+
+.Product img {
+	height: 50vh;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 7px;
+}
+
+.react-multi-carousel-item {
+	display: flex;
+	justify-content: center;
+}
+
+.react-multi-carousel-list {
+	margin: 40px 130px;
+}
+
+.react-multiple-carousel__arrow {
+	z-index: 1 !important;
+}
